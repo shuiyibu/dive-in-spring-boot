@@ -10,8 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 2018/5/27
  */
 @SpringBootApplication(scanBasePackages = {
-        "com.imooc.web.controller",
-        "com.imooc.web.config"
+        "com.imooc.web.controller"
+        //   "com.imooc.web.config"
 })
 public class SpringBootRestBootstrap {
 

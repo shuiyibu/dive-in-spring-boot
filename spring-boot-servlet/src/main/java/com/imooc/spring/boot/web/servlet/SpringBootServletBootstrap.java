@@ -31,8 +31,9 @@ public class SpringBootServletBootstrap {
 
     @Bean
     @Order(Ordered.HIGHEST_PRECEDENCE)
-    public ServletRegistrationBean asyncServletServletRegistrationBean(){
-        ServletRegistrationBean registrationBean =  new ServletRegistrationBean(new AsyncServlet(),"/");
+    public ServletRegistrationBean asyncServletServletRegistrationBean() {
+//        ServletRegistrationBean registrationBean =  new ServletRegistrationBean(new AsyncServlet(),"/");
+        ServletRegistrationBean registrationBean = new ServletRegistrationBean(new AsyncServlet(), "/async-servlet");
         registrationBean.setName("MyAsyncServlet");
         return registrationBean;
     }
