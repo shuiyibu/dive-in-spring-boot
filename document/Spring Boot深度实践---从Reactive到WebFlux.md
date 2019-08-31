@@ -665,7 +665,10 @@ CompletableFuture thread->main thread: 等待CompletableFuture \n 线程切换�
 
 # Reactor框架应用
 
-
+# Reactive Programming特性
+## 编程模型（Programming Models)
+- 响应式编程
+- 函数式编程
 
 # 走向Spring WebFlux
 
